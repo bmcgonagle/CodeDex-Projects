@@ -8,7 +8,7 @@ def play():
     score_player = 0
     score_computer = 0
     while True:
-        player = int(input("Enter a symbol to play: \n 1. Rock \n 2. Paper \n 3. Scissors \n"))
+        player = int(input("===================\nRock Paper Scissors\n=================== \n 1. Rock (✊) \n 2. Paper (✋) \n 3. Scissors (✌) \n"))
         computer = random.randint(1, 3)
         # Map numbers to symbols
         choices = {1: "Rock", 2: "Paper", 3: "Scissors"}
